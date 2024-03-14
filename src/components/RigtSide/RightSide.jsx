@@ -6,14 +6,14 @@ import "./RightSide.css";
 const RightSide = () => {
   return (
     <div className="RightSide">
-      <div>
-        <h3>Updates</h3>
+      <div className={{ height: "100%" }}>
+        <h3>Latest Patient Remarks</h3>
         <Updates />
       </div>
-      <div>
+      {/* <div>
         <h3>Customer Review</h3>
         <CustomerReview />
-      </div>
+      </div> */}
     </div>
   );
 };

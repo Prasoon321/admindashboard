@@ -1,5 +1,4 @@
-
-.Updates{
+.Updates {
     width: 85%;
     background: white;
     border-radius: 0.7rem;
@@ -10,16 +9,49 @@
     font-size: 13px;
 }
 
-.update{
+.update {
     display: flex;
     gap: 0.5rem;
 }
 
-.update>img{
+.update>img {
     width: 3.2rem;
     height: 3.2rem;
 }
 
-.noti>div>span:nth-of-type(1){
+.noti>div>span:nth-of-type(1) {
     font-weight: bold;
+}
+
+.Updates-container {
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    max-height: 100vh
+        /* Set a maximum height for the container */
+}
+
+/* Add smooth scrolling behavior */
+.Updates-container::-webkit-scrollbar {
+    width: 10px;
+    /* Width of the scrollbar */
+}
+
+/* Track */
+.Updates-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Color of the scrollbar track */
+}
+
+/* Handle */
+.Updates-container::-webkit-scrollbar-thumb {
+    background: #888;
+    /* Color of the scrollbar handle */
+    border-radius: 5px;
+    /* Rounded corners for the scrollbar handle */
+}
+
+/* Handle on hover */
+.Updates-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Color of the scrollbar handle on hover */
 }
